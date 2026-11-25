@@ -1,0 +1,26 @@
+{
+  "name": "bird-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "verify": "node verify_views.mjs",
+    "render": "node render_video.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raycoding1-collab/Bird-.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/raycoding1-collab/Bird-/issues"
+  },
+  "homepage": "https://github.com/raycoding1-collab/Bird-#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.65.1",
+    "three": "^0.187.0"
+  }
+}
